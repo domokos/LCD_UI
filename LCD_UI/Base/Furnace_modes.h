@@ -1,0 +1,10 @@
+#ifndef FURNACE_MODES_H_
+#define FURNACE_MODES_H_
+
+//Heating modes
+#define HEATING_MODE_RAD 0
+#define HEATING_MODE_FLOOR 1
+#define HEATING_MODE_RADFLOOR 3
+#define HEATING_MODE_OFF 4
+
+#endif /*FURNACE_MODES_H_*/

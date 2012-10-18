@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="LCD_UI.cdt.managedbuild.target.sdcc.exe.1967640975" name="MCS51 family (SDCC)" projectType="cdt.managedbuild.target.sdcc.exe">
+<configuration artifactExtension="ihx" artifactName="LCD_UI" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.sdcc.exe.release.1890985949" name="Release" parent="cdt.managedbuild.config.sdcc.exe.release">
+<toolChain id="cdt.managedbuild.toolchain.sdcc.exe.release.2073047333" name="SDCC Tool Chain" superClass="cdt.managedbuild.toolchain.sdcc.exe.release">
+<tool id="cdt.managedbuild.tool.sdcc.c.compiler.exe.release.1238355805" name="SDCC Compiler" superClass="cdt.managedbuild.tool.sdcc.c.compiler.exe.release">
+<option id="sdcc.c.compiler.option.include.paths.1913459479" superClass="sdcc.c.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/LCD_UI/Base}&quot;"/>
+</option>
+</tool>
+<tool id="cdt.managedbuild.tool.sdcc.c.linker.exe.release.1970523708" name="SDCC Linker" superClass="cdt.managedbuild.tool.sdcc.c.linker.exe.release">
+<option id="sdcc.c.link.option.ldflags.570254471" superClass="sdcc.c.link.option.ldflags" value="--iram-size 128" valueType="string"/>
+</tool>
+<tool id="cdt.managedbuild.tool.sdcc.assembler.exe.release.30491996" name="SDCC Assembler" superClass="cdt.managedbuild.tool.sdcc.assembler.exe.release"/>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="hex" artifactName="LCD_UI" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.sdcc.exe.debug.1054834402" name="Debug" parent="cdt.managedbuild.config.sdcc.exe.debug">
+<toolChain id="cdt.managedbuild.toolchain.sdcc.exe.debug.1589215092" name="SDCC Tool Chain" superClass="cdt.managedbuild.toolchain.sdcc.exe.debug">
+<tool id="cdt.managedbuild.tool.sdcc.c.compiler.exe.debug.1919649918" name="SDCC Compiler" superClass="cdt.managedbuild.tool.sdcc.c.compiler.exe.debug"/>
+<tool id="cdt.managedbuild.tool.sdcc.c.linker.exe.debug.1091736444" name="SDCC Linker" superClass="cdt.managedbuild.tool.sdcc.c.linker.exe.debug"/>
+<tool id="cdt.managedbuild.tool.sdcc.assembler.exe.release.1268252758" name="SDCC Assembler" superClass="cdt.managedbuild.tool.sdcc.assembler.exe.release"/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>
