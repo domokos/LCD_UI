@@ -27,10 +27,13 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/LCD_UI/Base}&quot;"/>
 									<listOptionValue builtIn="false" value="/usr/local/share/sdcc/include/mcs51"/>
 								</option>
+								<option id="sdcc.c.compiler.category.other.iramsize.576475376" superClass="sdcc.c.compiler.category.other.iramsize" value="128" valueType="string"/>
+								<option id="sdcc.c.compiler.category.other.xramsize.4102581" superClass="sdcc.c.compiler.category.other.xramsize" value="0" valueType="string"/>
+								<option id="sdcc.c.compiler.category.other.codesize.1146562947" superClass="sdcc.c.compiler.category.other.codesize" value="4096" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.sdcc.c.compiler.input.819195255" superClass="cdt.managedbuild.tool.sdcc.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.sdcc.c.linker.exe.release.1970523708" name="SDCC Linker" superClass="cdt.managedbuild.tool.sdcc.c.linker.exe.release">
-								<option id="sdcc.c.link.option.ldflags.570254471" name="Linker flags" superClass="sdcc.c.link.option.ldflags" value="--iram-size 128" valueType="string"/>
+								<option id="sdcc.c.link.option.ldflags.570254471" name="Linker flags" superClass="sdcc.c.link.option.ldflags" value="--iram-size 128 --xram-size 0 --code-size 4096" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.sdcc.c.linker.input.1355088857" superClass="cdt.managedbuild.tool.sdcc.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_RELS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
